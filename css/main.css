@@ -1,0 +1,117 @@
+body {
+  font-weight: bold;
+  transition: all 0.6s;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  transition: all 0.6s;
+}
+
+.card.dark {
+  background-color: #333;
+  color: white;
+  transition: all 0.6s;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-body {
+  background-color: black;
+  border-radius: 20px;
+}
+
+.bulb {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bulb i {
+  cursor: pointer;
+  font-size: 40px;
+  text-shadow: 0px 10px 10px black;
+}
+
+.bulb i.light {
+  cursor: pointer;
+  color: rgb(119, 122, 16);
+  font-size: 40px;
+  text-shadow: 0px 10px 10px yellow;
+}
+
+.deleteIcon {
+  float: right;
+  font-size: 25px;
+  color: rgb(87, 0, 0);
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.checked {
+  background-color: gray !important;
+  border: 2px solid rgb(55, 0, 0) !important;
+  text-decoration: line-through;
+}
+
+.form-control {
+  margin: 10px 0px;
+}
+
+.form-group {
+  margin: 10px 0px;
+}
+
+.d-grid {
+  margin: 10px 0px;
+}
+
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+
+#tbody i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.7);
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.model .card-header{
+  background-color: #333;
+  font-size: 30px;
+}
+.model .card-header
+i{
+  float: right;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.model .card{
+/* width: 40%; */
+
+color: white;
+}
+.model .card-body{
+  border-radius: 0  ;
+}
